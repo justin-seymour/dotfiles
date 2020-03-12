@@ -1,0 +1,55 @@
+#!/usr/bin/perl
+
+use Env qw(BLOCK_INSTANCE);
+
+my @metadata = ();
+my $player_arg = "";
+
+if ($BLOCK_INSTANCE) {
+    $player_arg = "--player='$BLOCK_INSTANCE'";
+}
+
+# clicking and stuff
+if ($ENV{'BLOCK_BUTTON'} == 3) {
+    system("playerctl $player_arg previous");
+} elsif ($ENV{'BLOCK_BUTTON'} == 1) {
+    system("playerctl $player_arg play-pause");
+} elsif ($ENV{'BLOCK_BUTTON'} == 2) {
+    system("playerctl $player_arg next");
+}
+
+# play/pause symbol
+my $status = qx(playerctl status);
+my $symbol = "";
+exit(0) if $?;
+chomp($status); #removes new line character
+if ($status eq "Playing") {
+    $symbol = "  ";
+} else {
+    $symbol = "  ";
+}
+
+# get/print "title - artist"
+# has to end with \n now
+my $title = qx(playerctl $player_arg metadata title);
+exit(0) if $?;
+chomp($title);
+if (length($title) > 30) # make titles more manageable
+{
+    $title = substr($title,0,30) . "...";
+}
+push(@metadata, $title) if $title;
+
+my $artist = qx(playerctl $player_arg metadata artist);
+# exit status will be nonzero when playerctl cannot find your player
+exit(0) if $?;
+# this is for the ad bits - no idea why i care
+if ($artist eq "\n") {
+    $metadata[0] .= "\n";
+    chomp($artist);
+}
+
+push(@metadata, $artist) if $artist;
+
+print($symbol, join(" - ", @metadata)) if @metadata;
+
