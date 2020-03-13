@@ -29,11 +29,11 @@ bindsym $mod+b exec firefox
 # kill focused window
 bindsym $mod+Shift+q kill
 
-bindsym $mod+d exec dmenu_run
-bindsym $mod+shift+d exec --no-startup-id i3-dmenu-desktop
+#bindsym $mod+d exec dmenu_run
+#bindsym $mod+shift+d exec --no-startup-id i3-dmenu-desktop
 
-#bindsym $mod+d exec rofi -show run
-#bindsym $mod+shift+d exec rofi -show drun
+bindsym $mod+d exec rofi -show run
+bindsym $mod+shift+d exec rofi -show drun
 
 # PROTIP: You can also dynamically set dmenu's colors this way:
 #bindsym $mod+d exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
@@ -185,24 +185,24 @@ bar {
 bindsym $mod+shift+x exec ~/bin/./newlock.sh
 
 # Pulse Audio controls
-#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% && pkill -RTMIN+10 i3blocks #increase sound volume
-#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% && pkill -RTMIN+10 i3blocks #decrease sound volume
-#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle && pkill -RTMIN+10 i3blocks # mute sound
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% && pkill -RTMIN+10 i3blocks #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% && pkill -RTMIN+10 i3blocks #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle && pkill -RTMIN+10 i3blocks # mute sound
 
 # Sreen brightness controls
-#bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
-#bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
 # Media player controls
-#bindsym XF86AudioPlay exec playerctl play-pause && pkill -RTMIN+10 i3blocks
-#bindsym XF86AudioNext exec playerctl next && pkill -RTMIN+10 i3blocks
-#bindsym XF86AudioPrev exec playerctl previous && pkill -RTMIN+10 i3blocks
+bindsym XF86AudioPlay exec playerctl play-pause && pkill -RTMIN+10 i3blocks
+bindsym XF86AudioNext exec playerctl next && pkill -RTMIN+10 i3blocks
+bindsym XF86AudioPrev exec playerctl previous && pkill -RTMIN+10 i3blocks
 
 #use -t argument to only turn off clicks
-#exec --no-startup-id "killall -q syndaemon; syndaemon -i 0.8 -K -d -R -t"
+exec --no-startup-id "killall -q syndaemon; syndaemon -i 0.8 -K -d -R -t"
 
-#exec --no-startup-id "killall -q nm-applet; nm-applet"
+exec --no-startup-id "killall -q nm-applet; nm-applet"
 
-#exec_always --no-startup-id "killall -q picom; picom --config ~/.config/i3/compton.conf"
+exec_always --no-startup-id "killall -q picom; picom --config ~/.config/i3/compton.conf"
 
 # i3 colors
 # Set colors from Xresources
@@ -234,11 +234,11 @@ bindsym $mod+o exec --no-startup-id $term -e ranger
 bindsym $mod+v exec $term -e bash -i -c "vim"
 
 #exec --no-startup-id caprine
-#for_window [class="Caprine"] floating enable
+for_window [class="Caprine"] floating enable
 #fix sizing later maybe?
-#for_window [class="Caprine"] resize set 1300 717
-#for_window [class="Caprine"] move scratchpad
-#bindsym $mod+p [class="Caprine"] scratchpad show; [class="Caprine"] move position center
+for_window [class="Caprine"] resize set 1300 717
+for_window [class="Caprine"] move scratchpad
+bindsym $mod+p [class="Caprine"] scratchpad show; [class="Caprine"] move position center
 
 # scratchpad
 for_window [instance="dropdown"] floating enable
@@ -253,19 +253,19 @@ bindsym $mod+u [instance="dropdown"] scratchpad show; [instance="dropdown"] move
 bindsym $mod+Tab workspace next
 bindsym $mod+shift+Tab workspace prev
 
-#floating_maximum_size 1300x717 
-#for_window [floating] move position center
+floating_maximum_size 1300x717 
+for_window [floating] move position center
 #for_window [floating] border pixel 3
 
 #exec wal -R #idk but keep for now
-#exec feh --bg-scale ~/Pictures/background
+exec feh --bg-scale ~/Pictures/background
 
-#bindsym $mod+F3 exec sticky toggle
+bindsym $mod+F3 exec sticky toggle
 
 exec udiskie -t &
 
 #exec transmission-gtk -m
 
-#for_window [class="URxvt" instance="tempo"] floating enable, resize set 550 300
-#bindsym $mod+backslash exec $term -name tempo
+for_window [class="URxvt" instance="tempo"] floating enable, resize set 550 300
+bindsym $mod+backslash exec $term -name tempo
 

@@ -1,4 +1,7 @@
 
+! transparency for st
+*.alpha: 0.8
+
 URxvt.font: xft:monospace:size=10
 !xvt.font: xft:SF Mono:size=12,xft:Inconsolata Nerd Font Mono:size=11
 
