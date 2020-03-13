@@ -6,3 +6,4 @@ cp ~/.config/i3/compton.conf .
 cp ~/.i3blocks.conf .
 cp -r ~/.i3scripts .
 cp ~/.Xresources .
+cp -r ~/bin .
