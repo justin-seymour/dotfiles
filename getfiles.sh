@@ -7,3 +7,4 @@ cp ~/.i3blocks.conf .
 cp -r ~/.i3scripts .
 cp ~/.Xresources .
 cp -r ~/bin .
+cp ~/.dwm/autostart.sh .
