@@ -6,5 +6,6 @@ if [ ! "$choice" = "Yes" ]; then
     exit 0
 fi
 
-exec killall dwm
+pkill dwmstatus
+killall dwm
 
