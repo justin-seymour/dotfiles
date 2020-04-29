@@ -13,4 +13,3 @@ cp -r ~/.config/vifm .config/.
 cp -r ~/.config/git .config/.
 cp -r ~/.config/fontconfig .config/.
 cp -r ~/.config/neofetch .config/.
-cp -r ~/.config/spotify .config/.

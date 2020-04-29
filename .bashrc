@@ -23,6 +23,14 @@ function cl {
 	ls
 }
 
+function scr {
+    touch $1
+    echo -e "#!/bin/bash\n\n" >> $1
+    #printf "#!/bin/bash\n" >> $1
+    chmod +x $1
+    v $1
+}
+
 alias uni='cd /mnt/windows/Users/Justin/Desktop/Uni'
 
 #(cat ~/.cache/wal/sequences &)
