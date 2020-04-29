@@ -11,18 +11,16 @@ PS1='[\u@\h \W]\$ '
 alias la='ls -a'
 alias v='vim'
 alias sv='sudo -E vim'
-alias r='ranger'
+#alias r='ranger'
+#alias f='vifm'
+alias f='~/.config/vifm/scripts/vifmrun'
 alias m='mupdf'
+alias s='sxiv'
 alias fuck='sudo $(history -p !!)'
 
 function cl {
 	cd $1
 	ls
-}
-
-function cla {
-	cd $1
-	ls -a
 }
 
 alias uni='cd /mnt/windows/Users/Justin/Desktop/Uni'

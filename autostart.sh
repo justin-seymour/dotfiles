@@ -2,7 +2,7 @@
 
 syndaemon -i 0.8 -K -d -R -t &
 
-picom --config ~/.config/i3/compton.conf &
+picom &
 
 feh --bg-scale ~/Pictures/uenhk4759a831.jpg &
 

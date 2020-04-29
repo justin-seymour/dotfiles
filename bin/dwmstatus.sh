@@ -10,16 +10,27 @@ dte() {
 bat() {
     #bat="$(exec ~/bin/battery)"
 
-    bat=$(acpi -b | awk '{print $4}' | sed 's/,//')
-    if [[ $(acpi -b | awk '{print $3}') = "Charging," ]]; then
+    #bat=$(acpi -b | awk '{print $4}' | sed 's/,//')
+    #if [[ $(acpi -b | awk '{print $3}') = "Charging," ]]; then
+    #    chr="🗲";
+    #fi
+    
+    bat=$(cat /sys/class/power_supply/BAT1/capacity)
+    if [[ $(cat /sys/class/power_supply/BAT1/status) = "Charging" ]]; then
         chr="🗲";
+    fi
+
+    if [ "$bat" -lt 25 ] && [ -z "$chr" ]; then
+        dunstify -r 255 -a lowbat "Battery Low" -u critical
+    else
+        dunstify -r 255 -a lowbat "yes" -t 1
     fi
 
     echo B: $bat $chr
 }
 
 mem() {
-    mem="$(free -h | awk '/^Mem:/ {print $3 "/" $2}')"
+    mem="$(free -h | awk '/^Mem:/ {print $3 "/" $2}' | sed 's/i//g')"
     echo M: $mem
 }
 

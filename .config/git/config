@@ -1,0 +1,27 @@
+[user]
+	email = jtseymour99@gmail.com
+	name = Justin Seymour
+[filesystem "N/A|12.0.2|/dev/sda5"]
+	timestampResolution = 63000 nanoseconds
+	minRacyThreshold = 3369 microseconds
+[filesystem "N/A|13|/dev/sda5"]
+	timestampResolution = 17000 nanoseconds
+	minRacyThreshold = 4306 microseconds
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+    status = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
