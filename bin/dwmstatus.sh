@@ -70,7 +70,16 @@ spot() {
     echo $symbol $title - $artist $sep
 }
 
+caps() {
+
+    temp=""
+
+    [ $(xset -q | grep Caps | awk '{print $4}') = "on" ] && temp="CAPS"
+
+    echo $temp $sep
+}
+
 while true; do
-    xsetroot -name "$(spot) $(mem) $sep $(bat) $sep $(vol) $sep $(dte)"
+    xsetroot -name "$(spot) $(caps) $(mem) $sep $(bat) $sep $(vol) $sep $(dte)"
     sleep 2s
 done &

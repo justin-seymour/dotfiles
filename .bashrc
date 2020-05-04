@@ -13,10 +13,12 @@ alias v='vim'
 alias sv='sudo -E vim'
 #alias r='ranger'
 #alias f='vifm'
-alias f='~/.config/vifm/scripts/vifmrun'
+alias f='~/.config/vifm/scripts/vifmrun $(pwd)'
 alias m='mupdf'
 alias s='sxiv'
 alias fuck='sudo $(history -p !!)'
+
+alias t='~/Documents/rcode/todo/todo'
 
 function cl {
 	cd $1

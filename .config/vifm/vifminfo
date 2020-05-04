@@ -34,18 +34,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/justin/.config/vifm/scripts
-	vifmimg
-2
-d/home/justin/.config/vifm
-	vifmrc
-5
-d/home/justin/.config
-	vifm
-23
-d/home/justin
-	Downloads
-4
 d/home/justin/Downloads
 	helpful.png
 8
@@ -332,7 +320,19 @@ d/home/justin/.config
 	dconf
 8
 d/home/justin
-	AUR
+	Documents
+3
+d/home/justin/Downloads
+	Mineshafter-launcher.jar
+6
+d/mnt/windows/Users/Justin/Desktop/Uni
+	APT
+1
+d/home/justin
+	Documents
+3
+d/mnt/windows/Users/Justin/Desktop/Uni
+	APT
 1
 d
 
