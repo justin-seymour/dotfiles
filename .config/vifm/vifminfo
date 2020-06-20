@@ -34,306 +34,306 @@ l2
 r2
 
 # Left window history (oldest to newest):
+d/home/justin/.vim
+	plugged
+2
 d/home/justin
-	Pictures
-5
-d/home/justin/Pictures
-	dv1tkk0k9sq21.png
-5
-d/home/justin
-	Downloads
-4
-d/home/justin/Downloads
-	Mineshafter-launcher.jar
-5
-d/home/justin
-	Pictures
-5
-d/home/justin/Pictures
-	dv1tkk0k9sq21.png
-5
-d/home/justin
-	Documents
+	documents
+7
+d/home/justin/documents
+	st
 3
-d/home/justin/Documents
-	latex
-5
-d/home/justin
-	Documents
-3
-d/home/justin/Documents
-	latex
-5
-d/home/justin/Documents/latex
-	..
-0
-d/home/justin/Documents
-	latex
-5
-d/home/justin
-	Documents
-3
-d/home/justin/Documents
-	latex
-5
-d/home/justin/Documents/latex
-	..
-0
-d/home/justin/Documents
-	latex
-5
-d/home/justin
-	.config
-3
-d/home/justin/.config
-	func_block.png
-29
-d/home/justin
-	.dwm
-4
-d/home/justin/.dwm
-	..
-0
 d/home/justin
 	.cache
 1
 d/home/justin/.cache
-	yay
-29
-d/home/justin/.cache/yay
 	..
 0
-d/home/justin/.cache
-	yay
-29
-d/home/justin
-	Documents
-3
-d/home/justin/Documents
-	latex
-5
 d/home/justin
 	.config
-3
-d/home/justin/.config
-	qutebrowser
-18
-d/home/justin/.config/qutebrowser
-	bookmarks
-1
-d/home/justin/.config/qutebrowser/bookmarks
-	urls
-1
-d/home/justin/.config/qutebrowser
-	quickmarks
 2
 d/home/justin/.config
-	qutebrowser
-18
-d/home/justin
-	.config
-3
-d/home
-	justin
-1
-d/home/justin
-	.config
-3
-d/home/justin/.config
 	fontconfig
-10
-d/home/justin
-	..
-0
-d/home
-	justin
-1
-d/home/justin
-	..
-0
-d/home
-	justin
-1
-d/home/justin
-	.config
-3
-d/home/justin/.config
-	fontconfig
-10
+4
 d/home/justin/.config/fontconfig
+	fonts.conf
+1
+d/home/justin/.config
+	git
+5
+d/home/justin/.config/git
 	..
 0
 d/home/justin/.config
-	dconf
-8
-d/home/justin
-	Documents
-3
-d/home/justin/Downloads
-	Mineshafter-launcher.jar
+	neofetch
 6
-d/mnt/windows/Users/Justin/Desktop/Uni
-	APT
-1
-d/home/justin
-	Documents
-3
-d/mnt/windows/Users/Justin/Desktop/Uni
-	APT
-1
-d/home/justin/Documents/dotfiles
+d/home/justin/.config/neofetch
 	..
 0
-d/home/justin/Documents
-	dotfiles
-2
-d/home/justin
-	Pictures
-5
-d/home/justin/Pictures
-	rrbltiehz7b31.png
-8
-d/home/justin
-	Pictures
-5
-d/home
-	justin
-1
-d/home/justin
-	Pictures
-5
-d/home/justin/Pictures
-	qc6dub0npxv21.png
+d/home/justin/.config
+	ranger
+7
+d/home/justin/.config/ranger
+	..
+0
+d/home/justin/.config
+	ranger
 7
 d/home/justin
-	Pictures
+	.config
+2
+d/home
+	justin
+1
+d/home/justin
+	bin
+6
+d/home/justin/bin
+	dwmstatus.sh
 4
+d/home/justin
+	documents
+9
+d/home/justin/documents
+	dwm
+2
+d/home/justin/documents/dwm
+	config.h
+7
+d/home/justin
+	Downloads
+8
+d/home/justin/Downloads
+	uenhk4759a831.jpg
+1
+d/home/justin
+	Downloads
+8
+d/home/justin/Downloads
+	uenhk4759a831.jpg
+1
+d/home/justin
+	.config
+2
+d/home/justin/.config
+	vifm
+10
+d/home/justin
+	documents
+11
+d/home/justin/documents
+	uni
+4
+d/home/justin/documents/uni
+	test
+1
+d/home/justin/documents/uni/test
+	test.pdf
+5
+d/home/justin
+	Downloads
+9
+d/home/justin/Downloads
+	uenhk4759a831.jpg
+1
+d/home/justin
+	Downloads
+9
+d/home/justin/Downloads
+	..
+0
+d/home/justin
+	Pictures
+10
+d/home/justin/Pictures
+	uenhk4759a831.jpg
+1
+d/home/justin
+	Pictures
+10
+d/home/justin/Pictures
+	uenhk4759a831.jpg
+1
+d/home/justin
+	Downloads
+9
+d/home/justin/Downloads
+	..
+0
+d/home/justin
+	documents
+12
+d/home/justin/documents
+	uni
+4
+d/home/justin
+	Pictures
+10
+d/home/justin/Pictures
+	uenhk4759a831.jpg
+1
+d/home/justin
+	Pictures
+10
+d/home/justin/Pictures
+	uenhk4759a831.jpg
+1
+d/home/justin
+	Pictures
+10
 d/home/justin/Pictures
 	screenshots
 1
 d/home/justin/Pictures/screenshots
-	2020-05-04-194735_1352x736_scrot.png
-20
-d/mnt/windows/Users/Justin/Desktop/Uni
-	APT
+	2020-06-16-182608_1366x768_scrot.png
 1
-d/mnt/windows/Users/Justin/Desktop/Uni/APT
-	testAss
-14
-d/mnt/windows/Users/Justin/Desktop/Uni/APT/testAss
+d/home/justin/Pictures
+	screenshots
+1
+d/home/justin
+	Downloads
+9
+d/home/justin/Downloads
 	..
 0
-d/mnt/windows/Users/Justin/Desktop/Uni/APT
-	lectures
-13
-d/mnt/windows/Users/Justin/Desktop/Uni/APT/lectures
-	4
+d/home/justin
+	bin
+11
+d/home/justin/bin
+	dwmstatus.sh
 4
-d/mnt/windows/Users/Justin/Desktop/Uni/APT/lectures/4
-	..
-0
-d/mnt/windows/Users/Justin/Desktop/Uni/APT/lectures
-	5
-5
-d/mnt/windows/Users/Justin/Desktop/Uni/APT/lectures/5
-	lec05a-ProgramIO-VersionControl.pdf
+d/home/justin
+	documents
+12
+d/home/justin/documents
+	uni
+4
+d/home/justin
+	.config
+2
+d/home/justin/.config
+	fontconfig
+7
+d/home/justin/.config/fontconfig
+	fonts.conf
+1
+d/home/justin
+	Pictures
+2
+d/home/justin/Pictures
+	screenshots
+1
+d/home/justin/Pictures/screenshots
+	2020-06-16-190928_1366x768_scrot.png
+2
+d/home/justin/Pictures
+	screenshots
+1
+d/home/justin
+	.config
+2
+d/home/justin/.config
+	vifm
+14
+d/home/justin/.config/vifm
+	scripts
+2
+d/home/justin/.config/vifm/scripts
+	vifmrun
+3
+d/home/justin
+	Pictures
+2
+d/home/justin/Pictures
+	screenshots
+1
+d/home/justin/Pictures/screenshots
+	2020-06-16-190928_1366x768_scrot.png
+2
+d/home/justin/Pictures
+	uenhk4759a831.jpg
 2
 d/home/justin
 	bin
-5
-d/mnt/windows/Users/Justin/Desktop/Uni
-	APT
-1
+3
+d/home/justin/bin
+	dwmstatus.sh
+4
 d/home/justin
-	Documents
-2
-d/home/justin/Documents
-	dotfiles
+	bin
+3
+d/home/justin/bin
+	automon
 2
 d/home/justin
 	Pictures
-4
-d/home/justin/Pictures
-	screenshots
-1
-d/home/justin/Pictures/screenshots
-	2019-06-08_1366x768.png
 2
 d/home/justin/Pictures
-	screenshots
+	uenhk4759a831.jpg
+2
+d/home/justin
+	Downloads
 1
+d/home/justin/Downloads
+	..
+0
 d/home/justin
 	Pictures
-4
+2
 d/home
 	justin
 1
-d/home/justin
-	.local
+d/
+	mnt
 8
-d/home/justin/.local
-	share
+d/mnt
+	storage
 1
-d/home/justin/.local/share
-	nvim
-5
-d/home/justin/.local/share/nvim
-	shada
-1
-d/home/justin/.local/share/nvim/shada
+d/mnt/storage
 	..
 0
-d/home/justin/.local/share/nvim
-	shada
+d/home/justin
+	Pictures
+2
+d/home
+	justin
 1
-d/home/justin/.local/share
-	nvim
-5
-d/home/justin
-	Downloads
-3
-d/home/justin/Downloads
-	webm
-3
-d/home/justin/Downloads/webm
-	a.mp4
-5
-d/home/justin
-	Downloads
-3
-d/home/justin/Downloads
-	webm
-3
-d/home/justin/Downloads/webm
-	1559737663049.webm
+d/
+	mnt
+8
+d/mnt
+	storage
+1
+d/mnt/storage
+	..
+0
+d/mnt
+	storage
+1
+d/
+	run
+12
+d/run
+	media
+7
+d/run/media
+	justin
+1
+d/run/media/justin
+	Acer
+1
+d/run/media/justin/Acer
+	Users
+14
+d/run/media/justin/Acer/Users
+	Justin
 4
-d/home/justin
+d/run/media/justin/Acer/Users/Justin
 	Downloads
-3
-d/home/justin/Downloads
-	webm
-3
-d/home/justin/Downloads/webm
-	1559737663049.webm
-4
-d/home/justin
-	Downloads
-3
-d/home/justin/Downloads
-	webm
-3
-d/home/justin/Downloads/webm
-	1559737582461.webm
-3
-d/home/justin/Downloads
-	webm
-3
-d/home/justin/Downloads/webm
-	1559737582461.webm
-3
-d/home/justin
-	Downloads
-3
+8
+d/run/media/justin/Acer/Users/Justin/Downloads
+	assignment1v1.3.pdf
+29
 d
 
 # Right window history (oldest to newest):
@@ -463,6 +463,15 @@ D/home/justin/Documents
 D/home/justin/Documents/uni
 	aa
 2
+D/home/justin
+	documents
+4
+D/home/justin/documents
+	uni
+4
+D/home/justin/documents/uni
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -478,18 +487,25 @@ D
 :!vim vifimg
 :!chmod +x v
 :!chmod +x vifmimg
-:qa
 :file
 :`
 :!cd
 :Q
+:mkdir Pictures
+:w
 :delete
+:mkdir screenshots
+:rename automon
+:.,.+4
+:qa
 :q
 
 # Search history (oldest to newest):
 /Note
 /.con
 /vi
+/med
+/resume
 
 # Prompt history (oldest to newest):
 phomer.gif
@@ -501,9 +517,7 @@ pvifmimg
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/justin/.local/share/vifm/Trash/000_2020-05-04-193056_1366x768_scrot.png
-""/home/justin/.local/share/vifm/Trash/000_2020-05-04-193210_1366x768_scrot.png
-""/home/justin/.local/share/vifm/Trash/000_2020-05-04-193234_1366x768_scrot.png
+""/home/justin/.local/share/vifm/Trash/000_screenshots
 
 # Directory stack (oldest to newest):
 
@@ -534,6 +548,8 @@ t/home/justin/.local/share/vifm/Trash/000_2020-05-04-193210_1366x768_scrot.png
 	/home/justin/2020-05-04-193210_1366x768_scrot.png
 t/home/justin/.local/share/vifm/Trash/000_2020-05-04-193234_1366x768_scrot.png
 	/home/justin/2020-05-04-193234_1366x768_scrot.png
+t/home/justin/.local/share/vifm/Trash/000_screenshots
+	/home/justin/Pictures/screenshots
 
 # State:
 f
