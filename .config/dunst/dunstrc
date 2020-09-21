@@ -385,7 +385,7 @@
 #    history_ignore = yes
 
 [caps-on]
-    summary = "Caps Lock On"
+    summary = "Caps Lock"
     history_ignore=yes
 
 [caps-off]
@@ -396,6 +396,10 @@
     summary = "Battery Low"
     history_ignore=yes
 
+[yes]
+    summary = "yes"
+    history_ignore=yes
+    
 [ignore]
     summary = "blank"
     format=""

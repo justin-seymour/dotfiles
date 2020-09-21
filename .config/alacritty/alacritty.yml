@@ -197,27 +197,27 @@
   #  text: '#eaeaea'
   #  background: '#404040'
 
-      ## Normal colors
-      #normal:
-      #  black:   '#000000'
-      #  red:     '#b21818'
-      #  green:   '#18b218'
-      #  yellow:  '#b26818'
-      #  blue:    '#1818b2'
-      #  magenta: '#b218b2'
-      #  cyan:    '#18b2b2'
-      #  white:   '#b2b2b2'
-  
-      ## Bright colors
-      #bright:
-      #  black:   '#686868'
-      #  red:     '#ff5454'
-      #  green:   '#54ff54'
-      #  yellow:  '#ffff54'
-      #  blue:    '#5454ff'
-      #  magenta: '#ff54ff'
-      #  cyan:    '#54ffff'
-      #  white:   '#ffffff'
+    # Normal colors
+    #normal:
+    #  black:   '#000000'
+    #  red:     '#b21818'
+    #  green:   '#18b218'
+    #  yellow:  '#b26818'
+    #  blue:    '#1818b2'
+    #  magenta: '#b218b2'
+    #  cyan:    '#18b2b2'
+    #  white:   '#b2b2b2'
+    
+    # Bright colors
+    #bright:
+    #  black:   '#686868'
+    #  red:     '#ff5454'
+    #  green:   '#54ff54'  
+    #  yellow:  '#ffff54'
+    #  blue:    '#5454ff'
+    #  magenta: '#ff54ff'
+    #  cyan:    '#54ffff'
+    #  white:   '#ffffff'
 
     # Normal colors
     normal:
@@ -229,7 +229,7 @@
       magenta: '0xBB22BB'
       cyan:    '0x22BBBB'
       white:   '0xDDDDDD'
-                                             
+                                               
     # Bright colors
     bright:
       black:   '0x888888'
@@ -295,7 +295,7 @@
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-  background_opacity: 1
+  background_opacity: 0.8
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"

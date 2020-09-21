@@ -34,15 +34,21 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/justin/.vim
-	plugged
-2
+d/home/justin/.config
+	dunst
+6
+d/home/justin/.config/dunst
+	dunstrc
+1
+d/home/justin/.config
+	dunst
+6
 d/home/justin
-	documents
-7
-d/home/justin/documents
-	st
-3
+	Pictures
+2
+d/home/justin/Pictures
+	uenhk4759a831.jpg
+2
 d/home/justin
 	.cache
 1
@@ -53,231 +59,165 @@ d/home/justin
 	.config
 2
 d/home/justin/.config
-	fontconfig
-4
-d/home/justin/.config/fontconfig
-	fonts.conf
-1
-d/home/justin/.config
-	git
-5
-d/home/justin/.config/git
-	..
-0
-d/home/justin/.config
-	neofetch
+	dunst
 6
-d/home/justin/.config/neofetch
+d/home/justin
+	.dwm
+3
+d/home/justin/.dwm
 	..
 0
-d/home/justin/.config
-	ranger
-7
-d/home/justin/.config/ranger
-	..
-0
-d/home/justin/.config
-	ranger
-7
 d/home/justin
 	.config
 2
-d/home
-	justin
-1
-d/home/justin
-	bin
+d/home/justin/.config
+	dunst
 6
-d/home/justin/bin
-	dwmstatus.sh
-4
 d/home/justin
 	documents
-9
+4
 d/home/justin/documents
-	dwm
-2
-d/home/justin/documents/dwm
-	config.h
-7
-d/home/justin
-	Downloads
-8
-d/home/justin/Downloads
-	uenhk4759a831.jpg
+	dotfiles
 1
-d/home/justin
-	Downloads
-8
-d/home/justin/Downloads
-	uenhk4759a831.jpg
-1
-d/home/justin
+d/home/justin/documents/dotfiles
 	.config
-2
-d/home/justin/.config
-	vifm
-10
+1
+d/home/justin/documents/dotfiles/.config
+	..
+0
+d/home/justin/documents/dotfiles
+	.config
+1
+d/home/justin/documents
+	dotfiles
+1
 d/home/justin
 	documents
-11
+13
+d/home/justin/documents
+	uni
+4
+d/home/justin
+	documents
+13
 d/home/justin/documents
 	uni
 4
 d/home/justin/documents/uni
 	test
 1
-d/home/justin/documents/uni/test
-	test.pdf
+d/home/justin/documents
+	uni
+4
+d/home/justin
+	.dwm
+3
+d/home/justin/.dwm
+	autostart.sh
+2
+d/home/justin
+	documents
+4
+d/
+	mnt
+8
+d/mnt
+	windows
+2
+d/mnt/windows
+	Documents and Settings
+3
+d/home/justin
+	documents
+4
+d/
+	home
+4
+d/home
+	justin
+1
+d/
+	home
+4
+d/home/justin
+	Pictures
+2
+d/home/justin/Pictures
+	uenhk4759a831.jpg
+2
+d/home/justin
+	Downloads
+1
+d/home/justin/Downloads
+	..
+0
+d/home/justin
+	Pictures
+2
+d/home/justin/Pictures
+	screenshots
+1
+d/home/justin/Pictures/screenshots
+	2020-06-16-190928_1366x768_scrot.png
+2
+d/home/justin/Pictures
+	uenhk4759a831.jpg
+2
+d/home/justin
+	Pictures
+2
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6
+	FrontEnd
+2
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6/FrontEnd
+	..
+0
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6
+	FrontEnd
+2
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6/FrontEnd
+	..
+0
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6
+	BackEnd
+1
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6/BackEnd
+	..
+0
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6
+	BackEnd
+1
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6/BackEnd
+	agme
+1
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6/BackEnd/agme
+	src
+1
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6/BackEnd/agme/src
+	main
+1
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6/BackEnd/agme/src/main
+	java
+1
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6/BackEnd/agme/src/main/java
+	com
+1
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6/BackEnd/agme/src/main/java/com
+	rmit
+1
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6/BackEnd/agme/src/main/java/com/rmit
+	sept
+1
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6/BackEnd/agme/src/main/java/com/rmit/sept
+	project
+1
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6/BackEnd/agme/src/main/java/com/rmit/sept/project
+	agme
+1
+d/home/justin/documents/uni/sept/majorproject-8-mon-17-30-6/BackEnd/agme/src/main/java/com/rmit/sept/project/agme
+	AgmeApplication.java
 5
 d/home/justin
-	Downloads
-9
-d/home/justin/Downloads
-	uenhk4759a831.jpg
-1
-d/home/justin
-	Downloads
-9
-d/home/justin/Downloads
-	..
-0
-d/home/justin
-	Pictures
-10
-d/home/justin/Pictures
-	uenhk4759a831.jpg
-1
-d/home/justin
-	Pictures
-10
-d/home/justin/Pictures
-	uenhk4759a831.jpg
-1
-d/home/justin
-	Downloads
-9
-d/home/justin/Downloads
-	..
-0
-d/home/justin
-	documents
-12
-d/home/justin/documents
-	uni
-4
-d/home/justin
-	Pictures
-10
-d/home/justin/Pictures
-	uenhk4759a831.jpg
-1
-d/home/justin
-	Pictures
-10
-d/home/justin/Pictures
-	uenhk4759a831.jpg
-1
-d/home/justin
-	Pictures
-10
-d/home/justin/Pictures
-	screenshots
-1
-d/home/justin/Pictures/screenshots
-	2020-06-16-182608_1366x768_scrot.png
-1
-d/home/justin/Pictures
-	screenshots
-1
-d/home/justin
-	Downloads
-9
-d/home/justin/Downloads
-	..
-0
-d/home/justin
-	bin
-11
-d/home/justin/bin
-	dwmstatus.sh
-4
-d/home/justin
-	documents
-12
-d/home/justin/documents
-	uni
-4
-d/home/justin
-	.config
-2
-d/home/justin/.config
-	fontconfig
-7
-d/home/justin/.config/fontconfig
-	fonts.conf
-1
-d/home/justin
-	Pictures
-2
-d/home/justin/Pictures
-	screenshots
-1
-d/home/justin/Pictures/screenshots
-	2020-06-16-190928_1366x768_scrot.png
-2
-d/home/justin/Pictures
-	screenshots
-1
-d/home/justin
-	.config
-2
-d/home/justin/.config
-	vifm
-14
-d/home/justin/.config/vifm
-	scripts
-2
-d/home/justin/.config/vifm/scripts
-	vifmrun
-3
-d/home/justin
-	Pictures
-2
-d/home/justin/Pictures
-	screenshots
-1
-d/home/justin/Pictures/screenshots
-	2020-06-16-190928_1366x768_scrot.png
-2
-d/home/justin/Pictures
-	uenhk4759a831.jpg
-2
-d/home/justin
-	bin
-3
-d/home/justin/bin
-	dwmstatus.sh
-4
-d/home/justin
-	bin
-3
-d/home/justin/bin
-	automon
-2
-d/home/justin
-	Pictures
-2
-d/home/justin/Pictures
-	uenhk4759a831.jpg
-2
-d/home/justin
-	Downloads
-1
-d/home/justin/Downloads
-	..
-0
-d/home/justin
 	Pictures
 2
 d/home
@@ -287,53 +227,113 @@ d/
 	mnt
 8
 d/mnt
-	storage
-1
-d/mnt/storage
-	..
-0
-d/home/justin
-	Pictures
+	windows
 2
-d/home
-	justin
-1
-d/
-	mnt
-8
-d/mnt
-	storage
-1
-d/mnt/storage
-	..
-0
-d/mnt
-	storage
-1
-d/
-	run
-12
-d/run
-	media
-7
-d/run/media
-	justin
-1
-d/run/media/justin
-	Acer
-1
-d/run/media/justin/Acer
+d/mnt/windows
 	Users
 14
-d/run/media/justin/Acer/Users
+d/mnt/windows/Users
 	Justin
 4
-d/run/media/justin/Acer/Users/Justin
-	Downloads
-8
-d/run/media/justin/Acer/Users/Justin/Downloads
-	assignment1v1.3.pdf
-29
+d/mnt/windows/Users/Justin
+	Desktop
+6
+d/mnt/windows/Users/Justin/Desktop
+	Computer Halp
+1
+d/mnt/windows/Users/Justin
+	Documents
+7
+d/mnt/windows/Users/Justin/Documents
+	Atmel Studio
+1
+d/mnt/windows/Users/Justin/Documents/Atmel Studio
+	7.0
+1
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0
+	Lab 3
+3
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Lab 3
+	Lab 3
+1
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Lab 3/Lab 3
+	main.asm
+4
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Lab 3
+	Lab 3
+1
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0
+	Lab 3 C
+4
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Lab 3 C
+	Lab 3 C
+1
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Lab 3 C/Lab 3 C
+	src
+2
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Lab 3 C/Lab 3 C/src
+	main.c
+4
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Lab 3 C/Lab 3 C
+	src
+2
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Lab 3 C
+	Lab 3 C
+1
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0
+	Test
+9
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Test
+	Test
+1
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Test/Test
+	Debug
+1
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Test
+	Test
+1
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0
+	Test
+9
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Test
+	Test
+1
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Test/Test
+	src
+2
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Test/Test/src
+	main.c
+4
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Test/Test
+	src
+2
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Test
+	Test
+1
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0
+	Lab 3
+3
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Lab 3
+	Lab 3
+1
+d/mnt/windows/Users/Justin/Documents/Atmel Studio/7.0/Lab 3/Lab 3
+	main.asm
+4
+d/home/justin
+	Pictures
+2
+d/home/justin/Pictures
+	uenhk4759a831.jpg
+2
+d/home/justin
+	Pictures
+2
+d/home
+	justin
+1
+d/home/justin
+	Pictures
+2
 d
 
 # Right window history (oldest to newest):
@@ -493,11 +493,12 @@ D
 :Q
 :mkdir Pictures
 :w
-:delete
 :mkdir screenshots
 :rename automon
 :.,.+4
 :qa
+:delete
+:wq
 :q
 
 # Search history (oldest to newest):
@@ -517,7 +518,7 @@ pvifmimg
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/justin/.local/share/vifm/Trash/000_screenshots
+""/home/justin/.local/share/vifm/Trash/001_30
 
 # Directory stack (oldest to newest):
 
@@ -550,6 +551,12 @@ t/home/justin/.local/share/vifm/Trash/000_2020-05-04-193234_1366x768_scrot.png
 	/home/justin/2020-05-04-193234_1366x768_scrot.png
 t/home/justin/.local/share/vifm/Trash/000_screenshots
 	/home/justin/Pictures/screenshots
+t/home/justin/.local/share/vifm/Trash/000_30
+	/home/justin/30
+t/home/justin/.local/share/vifm/Trash/000_.fehbg
+	/home/justin/.fehbg
+t/home/justin/.local/share/vifm/Trash/000_.lesshst
+	/home/justin/.lesshst
 
 # State:
 f
