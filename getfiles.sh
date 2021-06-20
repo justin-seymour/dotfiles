@@ -12,6 +12,5 @@ cp -r ~/.config/ranger .config/.
 cp -r ~/.config/vifm .config/.
 cp -r ~/.config/git .config/.
 cp -r ~/.config/fontconfig .config/.
-cp -r ~/.config/neofetch .config/.
 cp ~/.config/mimeapps.list .config/.
 cp -r ~/.config/picom/ .config/.

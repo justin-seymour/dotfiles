@@ -1,0 +1,5 @@
+#!/bin/bash
+
+dte="$( date '+%d-%b-%Y  %I:%M %P' )"
+echo $dte
+

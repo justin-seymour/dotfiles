@@ -1,0 +1,15 @@
+#!/bin/bash
+
+bat=$(cat /sys/class/power_supply/BAT0/capacity)
+if [[ $(cat /sys/class/power_supply/BAT0/status) = "Charging" ]]; then
+    chr="🗲";
+fi
+
+if [ "$bat" -lt 25 ] && [ -z "$chr" ]; then
+    dunstify -r 255 -a lowbat "Battery Low" -u critical
+else
+    dunstify -r 255 -a lowbat "yes" -t 1
+fi
+
+echo $bat $chr
+
