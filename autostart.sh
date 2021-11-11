@@ -8,7 +8,8 @@ syndaemon -i 0.8 -K -d -R -t &
 
 picom &
 
-feh --no-fehbg --bg-scale ~/Pictures/background.jpg &
+#feh --no-fehbg --bg-scale ~/Pictures/background.jpg &
+xwallpaper --zoom ~/pictures/wallpaper.jpg
 
 nm-applet &
 
