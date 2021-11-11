@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# For dunst
+# may be unnecessary for other installs
+export $(dbus-launch)
+
 syndaemon -i 0.8 -K -d -R -t &
 
 picom &
@@ -11,7 +15,7 @@ nm-applet &
 udiskie -t &
 
 #exec ~/bin/dwmstatus.sh &
-~/code/dwmbar/dwmbar
+~/documents/dwmbar/dwmbar
 
 #~/documents/rcode/caps_indicator/caps
-~/doc/caps_indicator/caps
+~/documents/caps_indicator/caps
