@@ -33,9 +33,11 @@ function scr {
     v $1
 }
 
-alias uni='cd /mnt/windows/Users/Justin/Desktop/Uni'
+function hack {
+    echo $@ hacked
+}
 
-#(cat ~/.cache/wal/sequences &)
+alias uni='cd /mnt/c/Users/Justin/Desktop/Uni'
 
 #shopt -s autocd
 
