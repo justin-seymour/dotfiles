@@ -9,10 +9,6 @@ set expandtab
 
 au BufEnter * set fo-=c fo-=r fo-=o
 
-if filereadable("~/.config/nvim/init.vim")
-    source ~/.config/nvim/init.vim
-endif
-
 "Auto install plugins
 if empty(glob('~/.local/share/nvim/autoload/plug.vim'))
   silent execute '!curl -fLo ~/.local/share/nvim/autoload/plug.vim --create-dirs 
