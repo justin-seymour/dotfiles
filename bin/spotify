@@ -1,0 +1,27 @@
+#!/bin/bash
+
+player="spotify"
+
+if [[ -n $(ps -C spotify | grep spotify) ]]; then
+    exit
+else
+
+    if [ "$(playerctl status)" = "Playing" ]; then
+        symbol=  
+    else
+        symbol= 
+    fi
+
+    title="$(playerctl -p $player metadata title)"
+    artist=$(playerctl -p $player metadata artist)
+
+    if [ "$(expr length "$title")" > 30 ]; then
+        title="${title,0,30}"
+    fi
+    if [ "$(expr length "$artist")" > 30 ]; then
+        artist="${artist,0,30}"
+    fi
+
+    echo $symbol $title - $artist $sep
+
+fi

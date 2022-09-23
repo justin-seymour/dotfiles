@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [[ $(amixer get Master | grep off) ]]; then
+    vol=MUTE
+else
+    vol=$(amixer get Master | grep -o "\[[0-9]\+%\]" | sed 's/[^0-9]*//g')
+fi
+echo $vol
+
