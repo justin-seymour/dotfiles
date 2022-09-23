@@ -10,10 +10,10 @@ set expandtab
 au BufEnter * set fo-=c fo-=r fo-=o
 
 "Auto install plugins
-if empty(glob('~/.local/share/nvim/autoload/plug.vim'))
-  silent execute '!curl -fLo ~/.local/share/nvim/autoload/plug.vim --create-dirs 
+if empty(glob(stdpath('data') . '/site/autoload/plug.vim'))
+  silent execute '!curl -fLo'. stdpath('data') . '/site/autoload/plug.vim' . ' --create-dirs 
         \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-  autocmd VimEnter * PlugInstall --sync | source ~/.config/nvim/init.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
 call plug#begin()
@@ -163,6 +163,11 @@ function! CommentLine()
     endif
 endfunction
 
+function SplitTerm()
+    execute "split term://bash"
+endfunction
+
 "Bind functions
 nnoremap <leader>; :call CommentLine()<CR>
+nnoremap <localleader>t :call SplitTerm()<CR>
 
