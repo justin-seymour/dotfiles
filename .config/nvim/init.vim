@@ -30,6 +30,10 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
+
+"Testing plugins
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
