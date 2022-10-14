@@ -177,3 +177,7 @@ endfunction
 nnoremap <leader>; :call CommentLine()<CR>
 nnoremap <localleader>t :call SplitTerm()<CR>
 
+"Use ripgrep if installed
+if executable('rg')
+    set grepprg=rg\ -n\ --hidden\ --vimgrep
+endif
