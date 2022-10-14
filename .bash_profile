@@ -4,9 +4,9 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-export EDITOR='vim'
+export EDITOR='nvim'
 export BROWSER='firefox'
-export TERMINAL='st'
+export TERMINAL='alacritty'
 
 if [[ "$(tty)" = "/dev/tty1" ]]; then
 	pgrep dwm || startx
