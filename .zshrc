@@ -17,9 +17,11 @@ setopt CORRECT
 
 # Aliases
 alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+
 alias la='ls -a'
 alias v='nvim'
-alias sv='sudo -E vim'
+alias sv='sudo -E nvim'
 alias fuck='sudo $(history -p !!)'
 
 # This is handy
