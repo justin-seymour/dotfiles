@@ -179,5 +179,5 @@ nnoremap <localleader>t :call SplitTerm()<CR>
 
 "Use ripgrep if installed
 if executable('rg')
-    set grepprg=rg\ -n\ --hidden\ --vimgrep
+    set grepprg=rg\ --hidden\ --vimgrep
 endif
