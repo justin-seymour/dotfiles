@@ -107,11 +107,10 @@ nnoremap <A-l> <C-w>l
 "nnoremap <leader>, :vertical resize -5<CR>
 
 " Resize binds
-nnoremap <A--> :resize +2<CR>
-nnoremap <A-=> :resize -2<CR>
-nnoremap <A-,> :vertical resize +2<CR>
-nnoremap <A-.> :vertical resize -2<CR>
-
+nnoremap <A-=> :resize +2<CR>
+nnoremap <A--> :resize -2<CR>
+nnoremap <A-.> :vertical resize +5<CR>
+nnoremap <A-,> :vertical resize -5<CR>
 
 "set background=dark
 colo iceberg
