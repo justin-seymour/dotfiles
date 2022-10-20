@@ -22,6 +22,7 @@ call plug#begin()
 Plug 'justin-seymour/vim-code-dark'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'cocopon/iceberg.vim'
+Plug 'morhetz/gruvbox'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'lervag/vimtex'
@@ -113,11 +114,11 @@ nnoremap <A-.> :vertical resize +5<CR>
 nnoremap <A-,> :vertical resize -5<CR>
 
 "set background=dark
-colo iceberg
+colo gruvbox
 
 "Configure lightline
 let g:lightline = {
-  \ 'colorscheme': 'codedark',
+  \ 'colorscheme': 'gruvbox',
   \ 'component_function': {
   \     'spelling': 'GetSpell',
   \ }, }
