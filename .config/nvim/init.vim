@@ -7,6 +7,8 @@ set nu rnu
 set ts=4 sw=4
 set expandtab
 
+set termguicolors
+
 au BufEnter * set fo-=c fo-=r fo-=o
 
 "Auto install plugins
@@ -23,6 +25,9 @@ Plug 'justin-seymour/vim-code-dark'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'cocopon/iceberg.vim'
 Plug 'morhetz/gruvbox'
+Plug 'sainnhe/sonokai'
+Plug 'rakr/vim-one'
+Plug 'joshdick/onedark.vim'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'lervag/vimtex'
@@ -114,11 +119,11 @@ nnoremap <A-.> :vertical resize +5<CR>
 nnoremap <A-,> :vertical resize -5<CR>
 
 "set background=dark
-colo gruvbox
+colo sonokai
 
 "Configure lightline
 let g:lightline = {
-  \ 'colorscheme': 'gruvbox',
+  \ 'colorscheme': 'sonokai',
   \ 'component_function': {
   \     'spelling': 'GetSpell',
   \ }, }
