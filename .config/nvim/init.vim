@@ -7,8 +7,6 @@ set nu rnu
 set ts=4 sw=4
 set expandtab
 
-set termguicolors
-
 au BufEnter * set fo-=c fo-=r fo-=o
 
 "Auto install plugins
@@ -118,7 +116,9 @@ nnoremap <A--> :resize -2<CR>
 nnoremap <A-.> :vertical resize +5<CR>
 nnoremap <A-,> :vertical resize -5<CR>
 
-"set background=dark
+set background=dark
+set termguicolors
+
 colo sonokai
 
 "Configure lightline
