@@ -38,6 +38,7 @@ Plug 'tpope/vim-commentary'
 
 "Testing plugins
 Plug 'tpope/vim-surround'
+Plug 'lambdalisue/fern.vim'
 
 call plug#end()
 
@@ -115,6 +116,8 @@ nnoremap <A-=> :resize +2<CR>
 nnoremap <A--> :resize -2<CR>
 nnoremap <A-.> :vertical resize +5<CR>
 nnoremap <A-,> :vertical resize -5<CR>
+
+nnoremap <leader>m :Fern . -drawer -toggle<CR>
 
 set background=dark
 set termguicolors
