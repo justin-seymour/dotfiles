@@ -49,7 +49,7 @@ let g:fzf_layout = { 'window': { 'width': 1, 'height': 0.4, 'yoffset': 1, 'borde
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 inoremap <silent><expr> <C-x><C-z> coc#pum#visible() ? coc#pum#stop() : "\<C-x>\<C-z>"
 inoremap <silent><expr> <TAB> coc#pum#visible() ? coc#pum#next(1) : "\<TAB>"
-inoremap <silent><expr> coc#pum#visible ? coc#pum#prev(1) : "\<S-TAB>"
+inoremap <silent><expr> <S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<S-TAB>"
 
 " Need this to make coc nvim tab complete work
 function! s:check_back_space() abort
