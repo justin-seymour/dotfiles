@@ -127,6 +127,7 @@ nnoremap <A-n> :move +1<CR>
 " Open netrc split
 nnoremap ]e :Sexplore!<CR>
 nnoremap [e :Sexplore<CR>
+nnoremap ]E :Explore<CR>
 
 " Colours / Status bar
 set background=dark
