@@ -1,0 +1,48 @@
+[colors.bright]
+black = "0x888888"
+blue = "0x2222FF"
+cyan = "0x22FFFF"
+green = "0x22FF22"
+magenta = "0xFF22FF"
+red = "0xFF2222"
+white = "0xFFFFFF"
+yellow = "0xFFFF22"
+
+[colors.normal]
+black = "0x000000"
+blue = "0x2222BB"
+cyan = "0x22BBBB"
+green = "0x22BB22"
+magenta = "0xBB22BB"
+red = "0xBB2222"
+white = "0xDDDDDD"
+yellow = "0xBBBB22"
+
+[colors.primary]
+background = "#000000"
+foreground = "#eaeaea"
+
+[font]
+size = 9
+
+[font.normal]
+family = "Noto Sans Mono"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+action = "ScrollLineUp"
+key = "K"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "ScrollLineDown"
+key = "J"
+mods = "Control|Shift"
+
+[window.padding]
+x = 4
+y = 2
