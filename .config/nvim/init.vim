@@ -7,6 +7,10 @@ set nu rnu
 set ts=4 sw=4
 set expandtab
 
+" Trying this out - show whitepspace
+set list
+" Maybe change listchars later
+
 au BufEnter * set fo-=c fo-=r fo-=o
 
 "Auto install plugins
@@ -39,6 +43,8 @@ Plug 'tpope/vim-commentary'
 "Testing plugins
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
+Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-obsession'
 
 call plug#end()
 
@@ -115,8 +121,8 @@ nnoremap [l :lprevious<CR>
 nnoremap ]a :t.<CR>
 
 " Move line up/down
-nnoremap ]k :move -2<CR>
-nnoremap ]j :move +1<CR>
+nnoremap <A-p> :move -2<CR>
+nnoremap <A-n> :move +1<CR>
 
 " Open netrc split
 nnoremap ]e :Sexplore!<CR>
