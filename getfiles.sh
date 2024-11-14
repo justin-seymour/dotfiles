@@ -6,7 +6,7 @@ cp ~/.bash_profile .
 #cp -r ~/.i3scripts .
 cp ~/.Xresources .
 cp -r ~/bin .
-cp ~/.dwm/autostart.sh .
+#cp ~/.dwm/autostart.sh .
 cp -r ~/.config/alacritty .config/.
 cp -r ~/.config/dunst .config/.
 cp -r ~/.config/git .config/.
