@@ -128,6 +128,7 @@ nnoremap <A-n> :move +1<CR>
 nnoremap ]e :Sexplore!<CR>
 nnoremap [e :Sexplore<CR>
 nnoremap ]E :Explore<CR>
+nnoremap [E :Texplore<CR>
 
 " Colours / Status bar
 set background=dark
