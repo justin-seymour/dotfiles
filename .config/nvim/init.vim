@@ -1,8 +1,8 @@
 
 set showmatch
 set ignorecase
-"set smartcase
-set mouse=a
+set autoindent
+"set mouse=a
 set nu rnu
 set ts=4 sw=4
 set expandtab
@@ -31,7 +31,6 @@ Plug 'sainnhe/sonokai'
 Plug 'rakr/vim-one'
 Plug 'joshdick/onedark.vim'
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'lervag/vimtex'
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -39,6 +38,10 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
+
+"LSP Stuff
+Plug 'mason-org/mason.nvim'
+Plug 'neovim/nvim-lspconfig'
 
 "Testing plugins
 Plug 'tpope/vim-surround'
@@ -49,19 +52,6 @@ call plug#end()
 
 "FZF Window at bottom of screen
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 0.4, 'yoffset': 1, 'border': 'none' } }
-
-"COC mappings
-inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
-inoremap <silent><expr> <C-x><C-z> coc#pum#visible() ? coc#pum#stop() : "\<C-x>\<C-z>"
-inoremap <silent><expr> <TAB> coc#pum#visible() ? coc#pum#next(1) : "\<TAB>"
-inoremap <silent><expr> <S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<S-TAB>"
-
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
 
 "Already on lightline
 set noshowmode
@@ -171,3 +161,32 @@ nnoremap <localleader>t :call SplitTerm()<CR>
 if executable('rg')
     set grepprg=rg\ --hidden\ --vimgrep
 endif
+
+"LSP Stuff
+lua << EOF
+require("mason").setup({
+ui = {
+    icons = {
+        package_installed = "✓",
+        package_pending = "➜",
+        package_uninstalled = "✗"
+    }
+    }
+})
+
+vim.diagnostic.config({
+-- Enable inline suggestions
+virtual_text = true,
+})
+
+-- Go to definiton
+vim.keymap.set('n', '<localleader>gd', vim.lsp.buf.definition, { desc = 'LSP go to definition' })
+vim.keymap.set('n', '<localleader>gD', vim.lsp.buf.declaration, { desc = 'LSP go to declaration' })
+
+-- Open actions
+vim.keymap.set('n', '<localleader>ca', vim.lsp.buf.code_action, { desc = 'LSP code action' })
+
+
+vim.lsp.enable('clangd')
+EOF
+
